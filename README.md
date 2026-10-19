@@ -26,13 +26,13 @@ RoboParty is a Shanghai-based company building **fully open-source humanoid robo
 
 | 模块 | 内容 |
 |---|---|
-| `rpo_hardware` | 机械结构、CAD 图纸、PCB 设计、BOM |
-| `roboparty_deploy` | ROS 2 部署框架、中间件、IMU / 电机驱动 |
-| `roboparty_train` | 强化学习训练环境与配置，Sim2Sim 迁移至 MuJoCo |
-| `rpo_description` | URDF / MJCF 运动学与动力学描述 |
-| `roboparty_firmware` | 嵌入式固件、USB2CAN |
-| `roboparty_navigation` | 导航与定位模块 |
-| `roboparty_xr_teleop` | XR 遥操作应用 |
+| [rpo_hardware](https://github.com/Roboparty/roboto_origin/tree/main/modules/rpo_hardware) | 机械结构、CAD 图纸、PCB 设计、BOM |
+| [roboparty_deploy](https://github.com/Roboparty/roboto_origin/tree/main/modules/roboparty_deploy) | ROS 2 部署框架、中间件、IMU / 电机驱动 |
+| [roboparty_train](https://github.com/Roboparty/roboto_origin/tree/main/modules/roboparty_train) | 强化学习训练环境与配置，Sim2Sim 迁移至 MuJoCo |
+| [rpo_description](https://github.com/Roboparty/roboto_origin/tree/main/modules/rpo_description) | URDF / MJCF 运动学与动力学描述 |
+| [roboparty_firmware](https://github.com/Roboparty/roboto_origin/tree/main/modules/roboparty_firmware) | 嵌入式固件、USB2CAN |
+| [roboparty_navigation](https://github.com/Roboparty/roboto_origin/tree/main/modules/roboparty_navigation) | 导航与定位模块 |
+| [roboparty_xr_teleop](https://github.com/Roboparty/roboto_origin/tree/main/modules/roboparty_xr_teleop) | XR 遥操作应用 |
 
 ### 技术栈 · Stack
 
@@ -46,6 +46,8 @@ RoboParty is a Shanghai-based company building **fully open-source humanoid robo
 生态项目：[Party_OS](https://github.com/Roboparty/Party_OS) · [MimicLite](https://github.com/Roboparty/MimicLite) · [P-BFM](https://github.com/Roboparty/P-BFM)
 
 👉 [github.com/Roboparty](https://github.com/Roboparty)
+
+个人整理的项目入口：[roboparty-lab](https://github.com/yanglin8899/roboparty-lab)
 
 ---
 
