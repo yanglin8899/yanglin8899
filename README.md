@@ -10,6 +10,45 @@ I work at the point where customer requirements meet engineering reality. My job
 
 ---
 
+## 我们做什么 · What RoboParty Builds
+
+**上海萝博派对科技有限公司**，2025 年 2 月成立于上海，专注**全栈开源人形机器人**。第一款原型机 ROBOTO_ORIGIN 从启动到跑通只用了四个月，结构、电控、训练、部署全链路开源。
+
+RoboParty is a Shanghai-based company building **fully open-source humanoid robots**. Our first prototype, ROBOTO_ORIGIN, went from zero to running in four months — with structures, electronics, training, and deployment all open-sourced.
+
+| 产品线 | 说明 |
+|---|---|
+| **RPO / ROBOTO_ORIGIN** | 全开源人形机器人原型机，可自行采购与加工完成整机组装 |
+| **RP1** | 人形机器人整机产品线 |
+| **RP Hand** | 五指灵巧手，11 个机械自由度（含 6 个主动轴），蜗轮机构，CAN-FD 通信 |
+
+### 开源模块 · Open-Source Modules
+
+| 模块 | 内容 |
+|---|---|
+| `rpo_hardware` | 机械结构、CAD 图纸、PCB 设计、BOM |
+| `roboparty_deploy` | ROS 2 部署框架、中间件、IMU / 电机驱动 |
+| `roboparty_train` | 强化学习训练环境与配置，Sim2Sim 迁移至 MuJoCo |
+| `rpo_description` | URDF / MJCF 运动学与动力学描述 |
+| `roboparty_firmware` | 嵌入式固件、USB2CAN |
+| `roboparty_navigation` | 导航与定位模块 |
+| `roboparty_xr_teleop` | XR 遥操作应用 |
+
+### 技术栈 · Stack
+
+![ROS2](https://img.shields.io/badge/ROS_2-Humble-silver)
+![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-4.5-silver)
+![Isaac Lab](https://img.shields.io/badge/Isaac_Lab-2.1-silver)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![C++](https://img.shields.io/badge/C++-17-blue)
+![License](https://img.shields.io/badge/License-GPLv3-blue)
+
+生态项目：[Party_OS](https://github.com/Roboparty/Party_OS) · [MimicLite](https://github.com/Roboparty/MimicLite) · [P-BFM](https://github.com/Roboparty/P-BFM)
+
+👉 [github.com/Roboparty](https://github.com/Roboparty)
+
+---
+
 ## 能做什么 · How I Can Help
 
 | 方向 | 具体内容 |
@@ -38,7 +77,7 @@ I work at the point where customer requirements meet engineering reality. My job
 - **Embodied AI** · 人形机器人从实验室走向教学与产业场景
 - **Education Robotics** · 高职与本科具身智能实训体系的设备与课程配套
 - **BCI × Robotics** · 脑机接口作为人形机器人输入端的可行性边界
-- **Teleoperation** · VR 遥操作在动作示教与数据采集中的作用
+- **Teleoperation** · VR / XR 遥操作在动作示教与数据采集中的作用
 
 ---
 
@@ -46,9 +85,9 @@ I work at the point where customer requirements meet engineering reality. My job
 
 | 项目 | 说明 |
 |---|---|
-| **RPO 人形机器人** | 全栈开源双足人形机器人，ROS 2 + 开放 SDK，面向教育与科研 |
 | **具身智能实训室方案** | 面向高职院校的完整建设方案：机器人 + 灵巧手 + 遥操作 + 机械臂 + 配套课程 |
 | **RPO × 脑机接口联合方案** | 侵入式脑机接口作为人形机器人输入端的系统架构与实施路径 |
+| **客户场景落地** | 教育与科研机构的设备选型、参数对齐与交付 |
 
 更多公开仓库会随项目开放陆续补充 · See my [public repositories](https://github.com/yanglin8899?tab=repositories).
 
@@ -59,5 +98,6 @@ I work at the point where customer requirements meet engineering reality. My job
 - **Email** · [yanglin@roboparty.com](mailto:yanglin@roboparty.com)
 - **Phone / WeChat** · +86 138-1831-3261
 - **Company** · [上海萝博派对科技有限公司](https://roboparty.cn)
+- **开源社区** · [github.com/Roboparty](https://github.com/Roboparty)
 
 Open to conversations about **humanoid robot deployment in education and research**. 如果你正在评估人形机器人是否适合自己的教学或科研场景，欢迎直接聊 —— 包括它做不到的地方。
